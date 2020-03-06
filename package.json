@@ -1,0 +1,56 @@
+{
+  "name": "@acpaas-ui/migration",
+  "version": "0.0.1",
+  "description": "Digipolis ACPAAS UI Angular Migration Kit",
+  "main": "cli.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "node ./cli.js",
+    "lint": "eslint .",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "digipolis-migrate-ui": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "generators/**/files/**/*"
+  ],
+  "keywords": [
+    "starter kit",
+    "acpaas ui",
+    "react",
+    "angular",
+    "node",
+    "generator"
+  ],
+  "author": "Jasper Van Proeyen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/runtime": "^7.7.6",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
