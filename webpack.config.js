@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   mode: 'development',
   target: 'node', // Tells webpack not to replace node specific code with browser alternatives, since we're running the script in node
-  entry: './index.ts',
+  entry: './index.js',
   output: {
     filename: 'cli.js',
     path: path.resolve(__dirname),

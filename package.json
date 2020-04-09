@@ -34,7 +34,9 @@
   "bugs": {
     "url": "https://github.com/digipolisantwerp/starter-kit-ui_app_nodejs/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-transform-modules-commonjs": "^7.7.5",
@@ -44,11 +46,13 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "chalk": "^3.0.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-mocha": "^5.3.0",
     "eslint-plugin-node": "^8.0.1",
+    "glob": "^7.1.6",
     "jest": "^24.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
